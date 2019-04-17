@@ -40,6 +40,8 @@ WebUI.waitForElementPresent(findTestObject('Page_Hc liu - Sch Mm/div_Trng Giang 
 
 WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/textarea_dfasdf_message_content'), 'hello ')
 
+WebUI.waitForElementPresent(findTestObject('Page_Hc liu - Sch Mm/small_1 pht trc'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/button_Gi'))
 
 WebUI.delay(3)
