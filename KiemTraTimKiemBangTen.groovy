@@ -34,7 +34,11 @@ WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/div_Nhn tin t
 WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/input_ng xut_input_search border border-primary ng-untouched ng-valid ng-dirty'), 
     'Trần')
 
+WebUI.waitForElementPresent(findTestObject('Page_Hc liu - Sch Mm/div_Trng Giang Trn          giagia1tsgmailcom'), 0)
+
+
 WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/div_Trng Giang Trn          giagia1tsgmailcom'))
+
 
 WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/textarea_dfasdf_message_content'), 'hello ')
 
