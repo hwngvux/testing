@@ -36,6 +36,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/input_ng xu
 
 WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/div_Trng Giang Trn          giagia1tsgmailcom'))
 
+WebUI.waitForElementPresent(findTestObject('Page_Hc liu - Sch Mm/div_Trng Giang Trn          giagia1tsgmailcom'), 0)
+
 WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/textarea_dfasdf_message_content'), 'hello ')
 
 WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/button_Gi'))
