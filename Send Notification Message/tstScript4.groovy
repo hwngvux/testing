@@ -33,8 +33,11 @@ WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/div_Nhn tin t
 
 WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/div_Thng bo          Gi cho ton b ngi hc trong lp'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/textarea_hung           ahsdasnf_message_content'), 
+WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/textarea_hung           ahsdasnf_message_content'),
     'hello everybody ')
+
+WebUI.waitForElementPresent(findTestObject('Page_Hc liu - Sch Mm/blockquote_hello everybody                                           15 gi trc'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/button_Gi'))
 
