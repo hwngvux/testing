@@ -42,6 +42,8 @@ WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/button_Gi'))
 WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/input_ng xut_input_search border border-primary ng-untouched ng-valid ng-dirty'), 
     'giagia')
 
+WebUI.waitForElementPresent(findTestObject('Page_Hc liu - Sch Mm/div_Trng Giang Trn          giagia1tsgmailcom'), 0)
+
 WebUI.sendKeys(findTestObject('Object Repository/Page_Hc liu - Sch Mm/input_ng xut_input_search border border-primary ng-untouched ng-valid ng-dirty'), 
     Keys.chord(Keys.ENTER))
 
