@@ -25,7 +25,7 @@ Giải thích:<br>
 --xss: XSS Attacks<br>
 
 Đây là kết quả nhận được
-![](grabber1.png)<br>
+![](grabber1.PNG)<br>
 
 ## Kết quả khi áp dụng Grabber để kiểm thử với hoclieu.vn
 Ta cần nhập câu lệnh sau
@@ -34,4 +34,4 @@ grabber --spider 1 --sql --xss --url ttps://www.hoclieu.vn
 ```
 
 Không thể tìm thấy lỗ hổng nào trên trang hoclieu.vn
-![](grabber2.png)<br>
+![](grabber2.PNG)<br>
